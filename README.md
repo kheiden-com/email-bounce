@@ -1,6 +1,6 @@
 # Email Bounce for Cloudflare Worker
 
-## Deploy worker to Cloudflare
+## Deploy worker to Cloudflare - CLI
 
 To create a new Cloudflare worker named "email-bounce", run the following:
 
@@ -8,6 +8,18 @@ To create a new Cloudflare worker named "email-bounce", run the following:
 npm install
 npm run deploy
 ```
+
+## Deploy worker to Cloudflare - UI
+0) Fork this repository
+1) Create a new worker
+![Screenshot of the new worker button](documentation/media/Screenshot-worker-new.png)
+
+2) Import the repository
+![Select](documentation/media/Screenshot-import-repository.png)
+
+3) Use the default name 'email-bounce' or select a new name
+4) Keep the default build command of `npx wrangler deploy`
+
 
 ### Configure Cloudflare email route
 
