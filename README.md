@@ -19,8 +19,8 @@ npm run deploy
 2) Import the repository
 ![Select](documentation/media/Screenshot-import-repository.png)
 
-3) Use the default name 'email-bounce' or select a new name
-4) Keep the default build command of `npx wrangler deploy`
+3) Use the default name 'email-bounce' or select a new name. Keep the default build command of `npx wrangler deploy`.
+4) Create the worker
 
 
 ### Configure Cloudflare email route
