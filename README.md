@@ -1,5 +1,7 @@
 # Email Bounce for Cloudflare Worker
 
+This Cloudflare worker can provide a bounce response when attached to an email address.
+
 ## Deploy worker to Cloudflare - CLI
 
 To create a new Cloudflare worker named "email-bounce", run the following:
