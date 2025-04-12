@@ -17,17 +17,17 @@ The inbound cloudflare email address needs to be directed to the newly create wo
 https://dash.cloudflare.com/[uuid]/[domain]/email/routing/routes
 ```
 Email address route being created and assigned to `email-bounce`:
-![Screenshot of email address](documentation\media\Screenshot-address.png)
+![Screenshot of email address](documentation/media/Screenshot-address.png)
 
 
-![Screenshot of Cloudflare worker](documentation\media\Screenshot-worker.png)
+![Screenshot of Cloudflare worker](documentation/media/Screenshot-worker.png)
 
 ### Results
 
 Sending an email from gmail
 
-![Bounce rejection message from gmail](documentation\media\Screenshot-gmail.png)
+![Bounce rejection message from gmail](documentation/media/Screenshot-gmail.png)
 
 Sending an email from protonmail
 
-![Bounce rejection message from protonmail](documentation\media\Screenshot-proton.png)
+![Bounce rejection message from protonmail](documentation/media/Screenshot-proton.png)
